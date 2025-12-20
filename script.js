@@ -1,11 +1,11 @@
 function getHistory(){
     return document.getElementById("history-value").innerText;
 }
-function printHistory(){
-    document.getElementById("history-value").innerText=num;
+function printHistory(num){
+    document.getElementById("history-value").innerText = num;
 }
 function getOutput(){
-    returndocument.getElementById("output-value").innerText;
+    return document.getElementById("output-value").innerText;
 }
 function printOutput(num){
      if(num==""){
